@@ -13,3 +13,13 @@
 	font-size: 20px;
 	width: 51%;
 }
+
+@media (max-width: 500px) {
+	.App {
+		width: 70%;
+	}
+
+	.App input {
+		width: 51px;
+	}
+}

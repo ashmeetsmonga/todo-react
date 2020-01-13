@@ -42,3 +42,10 @@
 .Done:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 500px) {
+	.Item {
+		width: 70%;
+		font-size: 15px;
+	}
+}
