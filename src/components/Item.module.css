@@ -1,0 +1,44 @@
+.Item {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 20px auto;
+	padding: 20px;
+	padding-bottom: 60px;
+	width: 50%;
+	background-color: white;
+	border-radius: 4px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.task {
+	float: left;
+	padding: 10px;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.Delete {
+	border: none;
+	background-color: red;
+
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+	border-radius: 4px;
+	float: right;
+	font-weight: bold;
+}
+
+.Item:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Delete:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Done:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
