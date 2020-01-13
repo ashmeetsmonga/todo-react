@@ -4,7 +4,7 @@ import Item from './components/Item';
 
 class App extends Component {
 	state = {
-		tasks: [ 'Go and play', 'Have Dinner', 'Study Hard', 'Sleep Soundly', 'Watch Witcher' ]
+		tasks: [ 'Have Dinner', 'Study Hard', 'Sleep Soundly', 'Watch Witcher' ]
 	};
 
 	addItem = (event) => {
